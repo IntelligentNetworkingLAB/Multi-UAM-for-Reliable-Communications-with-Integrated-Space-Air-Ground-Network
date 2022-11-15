@@ -87,19 +87,19 @@ def IsDone():
 def Initialize():
     curpts.append([-230, -230])
     curpts.append([-230, 230])
-#    curpts.append([-230, 0])
+    curpts.append([-230, 0])
     endpts.append([230, 230])
     endpts.append([230, -230])
-#    endpts.append([230, 0])
+    endpts.append([230, 0])
     isdone[0] = False
     isdone[1] = False
-#    isdone[2] = False
+    isdone[2] = False
     bspts.append([-125, 125])
     bspts.append([-125, -125])
     bspts.append([0, -125])
     bspts.append([125, -125])
-#    bspts.append([125, 0])
-#    bspts.append([125, 125])
+    bspts.append([125, 0])
+    bspts.append([125, 125])
     return
 
 if __name__ == '__main__':
